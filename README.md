@@ -45,6 +45,6 @@ my-cdn/
 │  │  ├─ image.jpeg
 ```
 
-You can follow on [Section 16 : Advanced Reduc + Firebase](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/15188186) when you're done!
+You can follow on [Section 16 : Advanced Redux + Firebase](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/15188186) when you're done!
 
 P.S : csv/data.csv and build/data.json are junk files that will cost to learn asyc python waiting for node.js to finish : sorry!
