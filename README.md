@@ -8,13 +8,15 @@ learn about extracting shopify data as .csv [here](https://help.shopify.com/en/m
 only python dependency : wget
 
 ```python
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
-make sure to edit "main.py" with your actual github cdn at line 44 :
+Edit values in "main.py" : githubUsername and githubRepo line 7 to 9 with your actual github username and repo :
 
 ```python
-cdnPath=r"https://raw.githubusercontent.com/[githubUserName]/[githubRepo]/main/"
+# edit these variables :
+githubUsername="EsyWin"
+githubRepo="shopify-migrate"
 ```
 
 ## run the script :

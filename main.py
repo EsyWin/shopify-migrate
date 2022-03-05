@@ -4,6 +4,9 @@ import csv
 import wget
 import json
 
+# edit these variables :
+githubUsername="EsyWin"
+githubRepo="shopify-migrate"
 # global variables
 fieldnames = ['id', 'title', 'imageUrl', 'price', 'category']
 categories = []
@@ -41,7 +44,7 @@ with open('csv/shopify.csv', newline='') as csvfile:
             imageUrlRaw=imageUrlShopify.split('?')
             imageUrl=imageUrlRaw[0]
             # enter path where images will be hosted, assuming "example.com/" to download images in "/images/products/"
-            cdnPath=r"https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/"
+            cdnPath=r"https://raw.githubusercontent.com/{}/{}/main/".format(githubUsername, githubRepo)
 
             # download images using wget, comment code block below to skip download :
             imagePath=r"images/products/{}".format(imageUrl.split("/")[-1])
