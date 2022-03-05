@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "Example T-Shirt",
+        "imageUrl": "https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/green-t-shirt.jpg",
+        "price": "25",
+        "category": "Shirts"
+    },
+    {
+        "id": "2",
+        "title": "",
+        "imageUrl": "https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/green-t-shirt.jpg",
+        "price": "19.99",
+        "category": ""
+    },
+    {
+        "id": "3",
+        "title": "",
+        "imageUrl": "https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/green-t-shirt.jpg",
+        "price": "19.99",
+        "category": ""
+    },
+    {
+        "id": "4",
+        "title": "Example Pants",
+        "imageUrl": "https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/distressed-kids-jeans.jpg",
+        "price": "49.99",
+        "category": "Pants"
+    },
+    {
+        "id": "5",
+        "title": "Example Hat",
+        "imageUrl": "https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/kids-beanie.jpg",
+        "price": "17.99",
+        "category": "Hat"
+    }
+]

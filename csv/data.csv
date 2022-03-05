@@ -1,0 +1,6 @@
+id,title,imageUrl,price,category
+1,Example T-Shirt,https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/green-t-shirt.jpg,25,Shirts
+2,,https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/green-t-shirt.jpg,19.99,
+3,,https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/green-t-shirt.jpg,19.99,
+4,Example Pants,https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/distressed-kids-jeans.jpg,49.99,Pants
+5,Example Hat,https://raw.githubusercontent.com/EsyWin/shopify-migrate/main/images/products/kids-beanie.jpg,17.99,Hat
