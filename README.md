@@ -28,7 +28,7 @@ The script assume you saved you CSV file under "CSV/shopify.csv"
 python3 main.py
 ```
 
-The main output of this script are "build/shop.data.json" and "build/shop.data.jsx" which consume this json just as our previous SHOP_DATA to copy and paste inside "redux/shop" of our Ecommerce App.
+**copy and paste "build/shop.data.json" and "build/shop.data.jsx" in "redux/shop" of our ecommerce app.**
 
 ## upload images to your github cdn
 
