@@ -11,13 +11,16 @@ only python dependency : wget
 pip3 install -r requirements.txt
 ```
 
-Edit values in "main.py" : githubUsername and githubRepo line 7 to 9 with your actual github username and repo :
+Edit variables after import statements in "main.py" :
 
 ```python
 # edit these variables :
 githubUsername="EsyWin"
 githubRepo="shopify-migrate"
+shopifyCSV="shopify.csv"
 ```
+
+The script assume you saved you CSV file under "CSV/shopify.csv"
 
 ## run the script :
 

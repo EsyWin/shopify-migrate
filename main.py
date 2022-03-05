@@ -7,6 +7,7 @@ import json
 # edit these variables :
 githubUsername="EsyWin"
 githubRepo="shopify-migrate"
+shopifyCSV="shopify.csv"
 # global variables
 fieldnames = ['id', 'title', 'imageUrl', 'price', 'category']
 categories = []
@@ -28,7 +29,7 @@ with open('csv/data.csv', 'w', newline='') as file:
     writer = csv.DictWriter(file, fieldnames=fieldnames)
     writer.writeheader()
 # open shopify csv file
-with open('csv/shopify.csv', newline='') as csvfile:
+with open('csv/{}'.format(shopifyCSV), newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
 
